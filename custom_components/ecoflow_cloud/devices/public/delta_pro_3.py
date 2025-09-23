@@ -73,7 +73,7 @@ class DeltaPro3(BaseDevice):
             MaxBatteryLevelEntity(
                 client,
                 self,
-                "energyBackupStartSocc",
+                "cfgEnergyBackup",
                 const.BACKUP_RESERVE_LEVEL,
                 5,
                 100,

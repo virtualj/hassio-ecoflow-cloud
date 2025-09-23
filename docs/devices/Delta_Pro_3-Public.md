@@ -10,7 +10,7 @@
 - PV Low-Voltage In Power (`powGetPvH`)
 - PV High-Voltage In Power (`powGetPvL`)
 - Min Cell Temperature (`bmsMinCellTemp`)
-- Max Cell Temperature (`"bmsMaxCellTemp`)
+- Max Cell Temperature (`bmsMaxCellTemp`)
 
 *Switches*
 

@@ -17,7 +17,7 @@
 *Sliders (numbers)*
 - AC Charging Power (`cfgPlugInInfoAcInChgPowMax` -> `{"sn": "SN", "cmdId": 17, "dirDest": 1, "dirSrc": 1, "cmdFunc": 254, "dest": 2, "params": {"cfgPlugInInfoAcInChgPowMax": "VALUE"}}` [400 - 2900])
 - Max Charge Level (`cfgMaxChgSoc` -> `{"sn": "SN", "cmdId": 17, "dirDest": 1, "dirSrc": 1, "cmdFunc": 254, "dest": 2, "params": {"cfgMaxChgSoc": "VALUE"}}` [50 - 100])
-- Min Charge Level (`cfgMinChgSoc` -> `{"sn": "SN", "cmdId": 17, "dirDest": 1, "dirSrc": 1, "cmdFunc": 254, "dest": 2, "params": {"cfgMinChgSoc": "VALUE"}}` [0 - 30])
+- Min Charge Level (`cfgMinDsgSoc` -> `{"sn": "SN", "cmdId": 17, "dirDest": 1, "dirSrc": 1, "cmdFunc": 254, "dest": 2, "params": {"cfgMinDsgSoc": "VALUE"}}` [0 - 30])
 - Backup Reserve Level (`cfgEnergyBackup` -> `{"sn": "SN", "cmdId": 17, "dirDest": 1, "dirSrc": 1, "cmdFunc": 254, "dest": 2, "params": {"cfgEnergyBackup": {"energyBackupStartSoc": value, "energyBackupEn": True}}` [5 - 100])
 
 *Selects*

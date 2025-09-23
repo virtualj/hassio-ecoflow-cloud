@@ -75,7 +75,7 @@ class DeltaPro3(BaseDevice):
                 client,
                 self,
                 "cfgMinChgSoc",
-                const.MIN_CHARGE_LEVEL,
+                const.MIN_DISCHARGE_LEVEL,
                 0,
                 30,
                 lambda value: {

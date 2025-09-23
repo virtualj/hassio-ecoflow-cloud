@@ -8,6 +8,7 @@ from ...entities import (
 from ...number import (
     ChargingPowerEntity,
     MaxBatteryLevelEntity,
+    MinBatteryLevelEntity,
 )
 from ...sensor import (
     CapacitySensorEntity,
@@ -70,6 +71,23 @@ class DeltaPro3(BaseDevice):
                     "params": {"cfgMaxChgSoc": value},
                 },
             ),
+            MinBatteryLevelEntity(
+                client,
+                self,
+                "cfgMinChgSoc",
+                const.MIN_CHARGE_LEVEL,
+                0,
+                30,
+                lambda value: {
+                    "sn": self.device_info.sn,
+                    "cmdId": 17,
+                    "dirDest": 1,
+                    "dirSrc": 1,
+                    "cmdFunc": 254,
+                    "dest": 2,
+                    "params": {"cfgMinChgSoc": value},
+                },
+            ),
             MaxBatteryLevelEntity(
                 client,
                 self,
@@ -87,6 +105,7 @@ class DeltaPro3(BaseDevice):
                     "params": {"cfgEnergyBackup": {"energyBackupStartSoc": value, "energyBackupEn": True}},
                 },
             ),
+
         ]
 
     def switches(self, client: EcoflowApiClient) -> list[BaseSwitchEntity]:

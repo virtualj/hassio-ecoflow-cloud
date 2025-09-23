@@ -74,7 +74,7 @@ class DeltaPro3(BaseDevice):
             MinBatteryLevelEntity(
                 client,
                 self,
-                "cfgMinChgSoc",
+                "cfgMinDsgSoc",
                 const.MIN_DISCHARGE_LEVEL,
                 0,
                 30,
@@ -85,7 +85,7 @@ class DeltaPro3(BaseDevice):
                     "dirSrc": 1,
                     "cmdFunc": 254,
                     "dest": 2,
-                    "params": {"cfgMinChgSoc": value},
+                    "params": {"cfgMinDsgSoc": value},
                 },
             ),
             MaxBatteryLevelEntity(

@@ -13,8 +13,10 @@ from ...number import (
 from ...sensor import (
     CapacitySensorEntity,
     InWattsSensorEntity,
+    InWattsSensorEntity,
     LevelSensorEntity,
     OutWattsSensorEntity,
+    OutWattsDcSensorEntity,
     CelsiusSensorEntity,
 )
 from .. import BaseDevice, const

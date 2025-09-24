@@ -2039,7 +2039,7 @@
 
 </p></details>
 
-<details><summary> Delta Pro 3 (API) <i>(sensors: 23, switches: 0, sliders: 1, selects: 0)</i> </summary>
+<details><summary> Delta Pro 3 (API) <i>(sensors: 23, switches: 0, sliders: 4, selects: 0)</i> </summary>
 <p>
 
 *Sensors*
@@ -2070,7 +2070,10 @@
 *Switches*
 
 *Sliders (numbers)*
-- AC Charging Power 
+- AC Charging Power
+- Max Charge Level
+- Min Charge Level
+- Backup Reserve Level
 
 *Selects*
 

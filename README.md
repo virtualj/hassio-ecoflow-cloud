@@ -1873,7 +1873,7 @@ Once installed, use Add Integration -> Ecoflow Cloud.
 
 </p></details>
 
-<details><summary> Delta Pro 3 (API) <i>(sensors: 6, switches: 0, sliders: 1, selects: 0)</i> </summary>
+<details><summary> Delta Pro 3 (API) <i>(sensors: 23, switches: 0, sliders: 4, selects: 0)</i> </summary>
 <p>
 
 *Sensors*
@@ -1883,11 +1883,31 @@ Once installed, use Add Integration -> Ecoflow Cloud.
 - Total In Power
 - Total Out Power
 - AC In Power
+- PV Low-Voltage In Power
+- PV High-Voltage In Power
+- AC High-Voltage Out Power
+- AC Out Power
+- Type-C (1) Out Power
+- Type-C (2) Out Power
+- DC Car Out Power
+- DC Anderson Out Power
+- AC Low-Voltage Out Power
+- Alt (1) In Power
+- USB QC (1) Out Power
+- USB QC (2) Out Power
+- Slave 1 Out Power
+- Slave 2 Out Power
+- AC Low-Voltage TT 30 Out Power
+- Min Cell Temperature
+- Max Cell Temperature
 
 *Switches*
 
 *Sliders (numbers)*
-- AC Charging Power 
+- AC Charging Power
+- Max Charge Level
+- Min Charge Level
+- Backup Reserve Level
 
 *Selects*
 

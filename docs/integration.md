@@ -23,6 +23,7 @@ Current integrations details:
 - [WAVE_2](devices/WAVE_2.md)
 - [DELTA_2](devices/DELTA_2-Public.md)
 - [DELTA_2_Max](devices/DELTA_2_Max-Public.md)
+- [DELTA_PRO_3](devices/Delta_Pro_3-Public.md)
 - [RIVER_2](devices/RIVER_2-Public.md)
 - [RIVER_2_Max](devices/RIVER_2_Max-Public.md)
 - [Smart_Meter](devices/Smart_Meter-Public.md)
